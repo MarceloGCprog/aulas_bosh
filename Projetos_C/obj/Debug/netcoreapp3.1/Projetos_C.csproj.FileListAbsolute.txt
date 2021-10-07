@@ -1,0 +1,13 @@
+C:\Users\Tributação\Projetos_C\bin\Debug\netcoreapp3.1\Projetos_C.exe
+C:\Users\Tributação\Projetos_C\bin\Debug\netcoreapp3.1\Projetos_C.deps.json
+C:\Users\Tributação\Projetos_C\bin\Debug\netcoreapp3.1\Projetos_C.runtimeconfig.json
+C:\Users\Tributação\Projetos_C\bin\Debug\netcoreapp3.1\Projetos_C.runtimeconfig.dev.json
+C:\Users\Tributação\Projetos_C\bin\Debug\netcoreapp3.1\Projetos_C.dll
+C:\Users\Tributação\Projetos_C\bin\Debug\netcoreapp3.1\Projetos_C.pdb
+C:\Users\Tributação\Projetos_C\obj\Debug\netcoreapp3.1\Projetos_C.csprojAssemblyReference.cache
+C:\Users\Tributação\Projetos_C\obj\Debug\netcoreapp3.1\Projetos_C.AssemblyInfoInputs.cache
+C:\Users\Tributação\Projetos_C\obj\Debug\netcoreapp3.1\Projetos_C.AssemblyInfo.cs
+C:\Users\Tributação\Projetos_C\obj\Debug\netcoreapp3.1\Projetos_C.csproj.CoreCompileInputs.cache
+C:\Users\Tributação\Projetos_C\obj\Debug\netcoreapp3.1\Projetos_C.dll
+C:\Users\Tributação\Projetos_C\obj\Debug\netcoreapp3.1\Projetos_C.pdb
+C:\Users\Tributação\Projetos_C\obj\Debug\netcoreapp3.1\Projetos_C.genruntimeconfig.cache
