@@ -12,7 +12,12 @@ namespace Projetos_C
 
            while(opcao != 4){
 
-            Console.WriteLine("Digite a opcao desejada\nDigite 1 para exercicio de media\nDigite 2 para o exercicio de matriz\nDigite 3 para o exercicio de lista\nDigite 4 para sair\nSua escolha: ");
+            Console.WriteLine("Digite a opcao desejada"+
+            "\nDigite 1 para exercicio de Vetor"+
+            "\nDigite 2 para o exercicio de Matriz"+
+            "\nDigite 3 para o exercicio de Lista"+
+            "\nDigite 4 para sair"+
+            "\nSua escolha: ");
             opcao = Convert.ToInt32(Console.ReadLine());
 
             switch(opcao){
@@ -42,7 +47,7 @@ namespace Projetos_C
 
                 Console.WriteLine("\nDigite os 4 valores para calculo da media:");
                 while (count < 4){
-                    Console.WriteLine("Digite o valor"+" "+ (count+1));
+                    Console.WriteLine($"Digite o {count+1}º valor");
                     vet[count] = Convert.ToDouble(Console.ReadLine());
                     count++;
                 }
@@ -64,7 +69,7 @@ namespace Projetos_C
                 int tam = Convert.ToInt32(Console.ReadLine());
                 Random randNum = new Random();
 
-                int[,] mat2 = {{1,2,3},{4,5,6},{7,8,9}};
+               
 
                 int[,] matriz = new int[tam,tam];
                 for (int i=0; i<tam;i++){
@@ -73,8 +78,15 @@ namespace Projetos_C
                     }
                 }
 
+                /*for (int i =0; i<tam;i++){
+                    Console.WriteLine($"\nLinha {i+1}: ");
+                    for(int j=0;j<tam;j++){
+                        Console.WriteLine(matriz[i,j]);
+                    }
+                }*/
+
                 for (int i=0; i<tam;i++){
-                    Console.WriteLine($"Diagonal({i}:{i}) valor: {matriz[i,i]}");                    
+                    Console.WriteLine($"Diagonal({i+1}:{i+1}) valor: {matriz[i,i]}");                    
             }
             
             Console.WriteLine("Digite enter para continuar...");
